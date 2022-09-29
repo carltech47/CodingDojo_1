@@ -1,0 +1,38 @@
+.row {
+    display: flex;
+} 
+
+.col, .col-1, .col-2, .col-3{
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: teal;
+} 
+
+.col-4 {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: teal;
+
+}
+.col-5 {
+    flex: 2;
+    padding: 20px;
+    margin: 10px;
+    background-color: teal;
+}
+
+.col-6 {
+    flex: 2;
+    padding: 20px;
+    margin: 10px;
+    background-color: teal;
+
+}
+.col-7 {
+    flex: 3;
+    padding: 20px;
+    margin: 10px;
+    background-color: teal;
+}

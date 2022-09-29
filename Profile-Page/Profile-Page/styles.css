@@ -1,0 +1,221 @@
+/* Navigation Bar - Top of Page */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+}
+
+.top {
+    background-color: #333333;
+}
+
+.nav {
+    width: 900px;
+    margin: 0 auto;
+    color: #ffffff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-title {
+    margin-left: 20px;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: rgb(41, 133, 207);
+    color: white;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px black;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+} 
+
+.col, .col-2{
+    padding: 10px;
+    margin: 10px;
+    flex: 1;
+} 
+
+.col-2 {
+    flex: 2;
+}
+
+/* Next Element - User Card */
+
+.flex-container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-card, .user-card-right {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h1, 
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 0px;
+}
+
+
+.avatar-m {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.icon-s {
+    height: 20px;
+}
+
+a {
+    color: #3a81e6;
+}
+
+/* User Card Bottom Left */
+
+.card-header-left {
+    background-color: #333333;
+    padding: 18px;
+    color: white;
+    margin-bottom: 0 auto;
+}
+
+.h2class {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+}
+
+.user-line-left {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+
+/* User Card Right */
+
+.card-header-right {
+    background-color: #333333;
+    padding: 20px;
+    color: white;
+
+}
+
+.avatar-s {
+    border-radius: 50%;
+    height: 48px;
+    margin-right: 10px ;
+}
+
+.user-line-right {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+
+.start, .end {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+
+/* Right Column Bottom */
+
+.card-header-right-bottom {
+    background-color: #333333;
+    padding: 20px;
+    color: white;
+
+}
+
+.avatar-b {
+    border-radius: 50%;
+    height: 48px;
+    margin-right: 10px ;
+}
+
+.user-line-right-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+
+.start-bottom, .end-bottom {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.dates {
+    color: #999;
+}
+.footer {
+    padding: 20px;
+    border-top: 2px solid #999;
+}
+
+.connections {
+    background-color: #eee;
+    color: black;
+    border-radius: 10px;
+    height: 24px;
+    padding: 0 10px;
+    margin: 5px;
+}

@@ -1,0 +1,28 @@
+* {
+    font-style: normal;
+}
+
+h1{
+    background-color: black;
+    color: white;
+}
+
+.purple {
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+    height: 40px;
+    font-style: italic;
+} 
+
+.inc {
+    color: aqua;
+}
+
+#lb {
+    background-color: aqua;
+    color: rebeccapurple;
+    text-align: right;
+    text-decoration: underline;
+}
+

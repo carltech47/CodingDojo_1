@@ -1,0 +1,61 @@
+.blue-bg {
+    background-color: aquamarine;
+    font-family: Arial;
+}
+#myNav {
+    background: linear-gradient(red,yellow, green);
+    font-size: 28px;
+}
+
+.font-bold{
+    font-weight: bold;
+    text-align: right;   
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sq-box {
+    height: 200px;
+    width: 200px;
+}
+
+.red-cl {
+    background-color: red;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.green-cl {
+    background-color: green;
+    display: inline-block;
+    /* margin: 4px 5px 6px 7px; */
+    padding-left: 20px;
+
+
+}
+.blue-cl{
+    background-color: blue;
+}
+
+
+.tallBlk {
+    height: 400px;
+}
+
+.focal {
+    background-color: bisque;
+    height: 50px;
+    width: 50px;
+    margin-left: 25%;
+
+}
+
+.blue-cl p {
+    color: yellow;
+}

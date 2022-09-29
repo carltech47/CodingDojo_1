@@ -1,0 +1,51 @@
+#container {
+    background-color: grey;
+    width: 960px;
+    /* overflow: hidden; */
+    /* height: auto; */
+
+}
+
+#box-1, #box-2, #box-3 {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    
+    /* display: inline-block; */
+    /* text-align: center; */
+
+}
+
+#box-1, #box-2, #box-3 {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+/* You can either use the overflow property of hidden
+to hide the information outside of the div tag */
+
+/* You can use shorthand to equate to the 
+the top, right, left, bottom
+
+padding-top 20px
+padding-right 5px
+padding-left 10px
+padding-bottom 15px
+
+Same as 
+
+padding: 20px 5px 10px 15px;
+*/
+
+
+/* Margin
+   Border
+   Padding
+   
+   **Content in the DIV** */
